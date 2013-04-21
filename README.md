@@ -1,5 +1,4 @@
 # puppet-metche
-https://labs.riseup.net/code/projects/metche
 
 Manage [metche](https://labs.riseup.net/code/projects/metche) via Puppet
 
