@@ -22,7 +22,6 @@ include 'metche'
 
 ## Other class parameters
 
-# === Parameters
 * metche\_changelog: Activate single changelog file monitoring (/root/Changelog)
 * metche\_dopkg: Debian packages monitoring (yes)
 * metche\_watchdir: Directory watched by metche (/etc)
