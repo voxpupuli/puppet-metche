@@ -1,0 +1,8 @@
+name    'puppet-metche'
+version '0.0.1'
+source  'https://github.com/sbadia/puppet-metche'
+author  'Sebastien Badia'
+license 'GPLv3'
+summary 'Puppet Metche Module'
+description 'Module to install/manage Metche using puppet'
+project_page 'https://github.com/sbadia/puppet-metche/'
