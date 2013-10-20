@@ -8,13 +8,13 @@
 #
 
 # Directory watched by metche
-WATCHED_DIR="<%= @metche_watchdir %>"
+WATCHED_DIR="<%= @watchdir %>"
 
 # Directory containing backups
 BACKUP_DIR="/var/lib/metche"
 
 # Activate single changelog file monitoring
-CHANGELOG_FILE="<%= @metche_changelog %>"
+CHANGELOG_FILE="<%= @changelog %>"
 
 # Activate multiple changelogs file monitoring.
 # Each "Changelog" should be in a sub-directory of CHANGELOG_DIR.
@@ -22,26 +22,26 @@ CHANGELOG_FILE="<%= @metche_changelog %>"
 #CHANGELOG_DIR="/root/changelogs"
 
 # Debian packages monitoring (need apt-show-versions)
-DO_PACKAGES="<%= @metche_dopkg %>"
+DO_PACKAGES="<%= @dopkg %>"
 
 # Show diff details for modified files
 # WARNING! This can send sensitive data by e-mail if not used with encryption.
-DO_DETAILS="<%= @metche_dodetail %>"
+DO_DETAILS="<%= @dodetail %>"
 
 # Minutes until unstable goes to testing
-TESTING_TIME="<%= @metche_test_time %>"
+TESTING_TIME="<%= @test_time %>"
 
 # Days until testing goes to stable
-STABLE_TIME="<%= @metche_stable_time %>"
+STABLE_TIME="<%= @stable_time %>"
 
 # Address receiving testing changes report
-EMAIL_ADDRESS="<%= @metche_email %>"
+EMAIL_ADDRESS="<%= @email %>"
 
 # Encrypt emails with GnuPG ? (uncomment next line to do so)
 #ENCRYPT_EMAIL="yes"
 
 # Email $EMAIL_ADDRESS after saving a stable state
-SEND_STABLE_REPORTS="<%= @metche_send_stable %>"
+SEND_STABLE_REPORTS="<%= @send_stable %>"
 
 # Filename patterns to ignore (space-separated list)
 # GNU tar --exclude pattern matching rules are used:
@@ -55,7 +55,7 @@ SEND_STABLE_REPORTS="<%= @metche_send_stable %>"
 #   - "printcap" when cups browsing feature are used.
 #
 # Example (default value):
-EXCLUDES="<%= @metche_excludes %>"
+EXCLUDES="<%= @excludes %>"
 #EXCLUDES="*.swp #* *~ *.gpg *.key ifstate adjtime ld.so.cache shadow* \
 #          .cache .gnupg blkid.tab* aumixrc net.enable mtab backup.d \
 #          vdirbase run.rev vdir run.rev \
