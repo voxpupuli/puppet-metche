@@ -1,4 +1,4 @@
-# puppet-metche
+# Puppet-metche [![Build Status](https://travis-ci.org/sbadia/puppet-metche.png)](https://travis-ci.org/sbadia/puppet-metche)
 
 Manage [metche](https://labs.riseup.net/code/projects/metche) via Puppet
 
