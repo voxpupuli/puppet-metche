@@ -1,5 +1,5 @@
-name    'puppet-metche'
-version '0.0.1'
+name    'sbadia-metche'
+version '0.0.2'
 source  'https://github.com/sbadia/puppet-metche'
 author  'Sebastien Badia'
 license 'GPLv3'
