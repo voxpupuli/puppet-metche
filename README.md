@@ -17,11 +17,13 @@ Its most helpful feature is the automatic sending of change reports
 
 ### Override values
 
-    class { 'metche':
-      dopkg    => true,
-      dodetail => true,
-      email    => 'notifs@foobar.org',
-    }
+```puppet
+class { 'metche':
+  dopkg    => true,
+  dodetail => true,
+  email    => 'notifs@foobar.org',
+}
+```
 
 
 ## Other class parameters
