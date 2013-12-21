@@ -13,7 +13,9 @@ Its most helpful feature is the automatic sending of change reports
 
 ### Using default values
 
-    include 'metche'
+```puppet
+include 'metche'
+```
 
 ### Override values
 
