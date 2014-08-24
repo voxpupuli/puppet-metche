@@ -1,0 +1,27 @@
+{
+  "name": "sbadia-metche",
+  "version": "0.0.2",
+  "author": "Sebastien Badia",
+  "summary": "Puppet metche Module",
+  "license": "GPLv3",
+  "source": "https://github.com/sbadia/puppet-metche",
+  "project_page": "https://github.com/sbadia/puppet-metche/",
+  "issues_url": "https://github.com/sbadia/puppet-metche/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "description": "Module to install/manage Metche using puppet"
+}

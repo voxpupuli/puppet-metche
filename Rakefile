@@ -10,7 +10,7 @@ require 'puppet-lint/tasks/puppet-lint'
 PuppetLint.configuration.send('disable_80chars')
 
 def get_version
-  if File.read(File.join(TDIR, 'Modulefile')) =~ /(\d+)\.(\d+)\.(\d+)/
+  if File.read(File.join(TDIR, 'metadata.json')) =~ /(\d+)\.(\d+)\.(\d+)/
     return [$1.to_i, $2.to_i, $3.to_i].compact.join('.')
   end
 end # def:: get_version
@@ -36,9 +36,9 @@ def bump_version(level)
   end
 
   new_version = [major,minor,patch].compact.join('.')
-  v = File.read(File.join(TDIR,'Modulefile')).chomp
+  v = File.read(File.join(TDIR,'metadata.json')).chomp
   v.gsub!(/\w+\s'(\d+)\.(\d+)\.(\d+)'/,"version\ '#{new_version}'")
-  File.open(File.join(TDIR,'Modulefile'), 'w') do |file|
+  File.open(File.join(TDIR,'metadata.json'), 'w') do |file|
     file.puts v
   end
 end # def:: bump_version(level)
@@ -93,7 +93,8 @@ namespace :module do
 
 end
 
-
-
 task(:default).clear
-task :default => [:spec, :lint]
+task :default => [:spec_prep, :spec_standalone, :lint]
+
+desc 'Run syntax, lint and spec tests'
+task :test => [:syntax,:lint,:spec]
