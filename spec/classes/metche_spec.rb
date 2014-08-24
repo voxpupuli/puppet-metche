@@ -19,15 +19,18 @@ describe 'metche', :type => :class do
   let(:params) {{
     :owner => 'root',
   }}
-  it { should contain_package('metche') }
+
+ it { should contain_package('metche') }
+
   it { should contain_file('/etc/metche.conf').with(
-        :owner => params[:owner],
-        :group => params[:owner],
-        :mode  => '0644'
+    :owner => params[:owner],
+    :group => params[:owner],
+    :mode  => '0644'
   )}
 
   context 'With dopkg enabled' do
     let(:params) {{:dopkg => 'yes'}}
+
     it do
       should contain_package('apt-show-versions')
       should contain_file('/etc/metche.conf').with_content(/DO_PACKAGES="yes"/)

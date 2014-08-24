@@ -8,6 +8,7 @@ require 'puppetlabs_spec_helper/rake_tasks'
 require 'puppet-lint/tasks/puppet-lint'
 
 PuppetLint.configuration.send('disable_80chars')
+PuppetLint.configuration.fail_on_warnings = true
 
 def get_version
   if File.read(File.join(TDIR, 'metadata.json')) =~ /(\d+)\.(\d+)\.(\d+)/

@@ -23,5 +23,5 @@
       ]
     }
   ],
-  "description": "Module to install/manage Metche using puppet"
+  "description": "Module to install/manage Metche using puppet",
 }
