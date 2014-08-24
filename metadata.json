@@ -24,4 +24,7 @@
     }
   ],
   "description": "Module to install/manage Metche using puppet",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.1.0"}
+  ]
 }
