@@ -1,4 +1,10 @@
-# Puppet-metche [![Build Status](https://travis-ci.org/sbadia/puppet-metche.png)](https://travis-ci.org/sbadia/puppet-metche)
+# Puppet-metche
+
+[![Build Status](https://travis-ci.org/sbadia/puppet-metche.png?branch=master)](https://travis-ci.org/sbadia/puppet-metche)
+[![Puppet Forge](http://img.shields.io/puppetforge/v/sbadia/metche.svg)](https://forge.puppetlabs.com/sbadia/metche)
+[![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+
+
 
 Manage [metche](https://labs.riseup.net/code/projects/metche) via Puppet
 
@@ -39,6 +45,14 @@ class { 'metche':
 * `email`: Address receiving testing changes report (root)
 * `send_stable`: Email $EMAIL\_ADDRESS after saving a stable state (yes)
 * `excludes`: Excludes files from metche reports (\*.swp)
+
+# Contributors
+
+* https://github.com/sbadia/puppet-metche/graphs/contributors
+
+# Release Notes
+
+See [CHANGELOG](https://github.com/sbadia/puppet-metche/blob/master/CHANGELOG.md) file.
 
 ## Development
 
