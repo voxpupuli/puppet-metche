@@ -1,3 +1,8 @@
+## 2014-08-25 - 1.0.0
+* Switch to metadata.json (puppetforge)
+* Fix spec tests and update readme
+* Use semver.org
+
 ## 2013-10-27 - 0.0.2
 * Update parameters name (remove metche) (module scope)
 * Add specs and travis
