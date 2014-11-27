@@ -8,6 +8,10 @@
 #   Activate single changelog file monitoring.
 #   Default: /root/Changelog
 #
+# [*owner*]
+#   Owner and group of the Changelog file.
+#   Default: root
+#
 # [*dopkg*]
 #   Enable debian packages monitoring (this value is directly added
 #   in metche configuration. Values are: [yes|no]
@@ -61,16 +65,17 @@
 # See LICENSE file
 #
 class metche(
-    $changelog   = '/root/Changelog',
-    $owner       = 'root',
-    $dopkg       = 'yes',
-    $watchdir    = '/etc',
-    $dodetail    = 'no',
-    $test_time   = '60',
-    $stable_time = '3',
-    $email       = 'root@localhost',
-    $send_stable = 'no',
-    $excludes    = '*.swp *.git') {
+  $changelog   = '/root/Changelog',
+  $owner       = 'root',
+  $dopkg       = 'yes',
+  $watchdir    = '/etc',
+  $dodetail    = 'no',
+  $test_time   = '60',
+  $stable_time = '3',
+  $email       = 'root@localhost',
+  $send_stable = 'no',
+  $excludes    = '*.swp *.git'
+  ) {
 
   package {
     'metche':
