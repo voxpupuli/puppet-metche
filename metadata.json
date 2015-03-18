@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Sebastien Badia",
   "summary": "Puppet metche Module",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "source": "https://github.com/sbadia/puppet-metche",
   "project_page": "https://github.com/sbadia/puppet-metche/",
   "issues_url": "https://github.com/sbadia/puppet-metche/issues",
