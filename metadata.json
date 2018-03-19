@@ -1,12 +1,12 @@
 {
-  "name": "sbadia-metche",
+  "name": "puppet-metche",
   "version": "1.0.0",
   "author": "Sebastien Badia",
   "summary": "Puppet metche Module",
   "license": "GPL-3.0",
-  "source": "https://github.com/sbadia/puppet-metche",
-  "project_page": "https://github.com/sbadia/puppet-metche/",
-  "issues_url": "https://github.com/sbadia/puppet-metche/issues",
+  "source": "https://github.com/voxpupuli/puppet-metche",
+  "project_page": "https://github.com/voxpupuli/puppet-metche/",
+  "issues_url": "https://github.com/voxpupuli/puppet-metche/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
