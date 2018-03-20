@@ -1,7 +1,7 @@
 {
   "name": "puppet-metche",
   "version": "1.0.0",
-  "author": "Sebastien Badia",
+  "author": "Vox Pupuli",
   "summary": "Puppet metche Module",
   "license": "GPL-3.0",
   "source": "https://github.com/voxpupuli/puppet-metche",
@@ -25,6 +25,15 @@
   ],
   "description": "Module to install/manage Metche using puppet",
   "dependencies": [
-    {"name":"puppetlabs/stdlib","version_requirement":">= 4.1.0"}
+    {
+      "name":"puppetlabs/stdlib",
+      "version_requirement":">= 4.1.0"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.1 < 6.0.0"
+    }
   ]
 }
