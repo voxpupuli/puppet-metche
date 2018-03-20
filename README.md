@@ -2,9 +2,10 @@
 
 [![Build Status](https://travis-ci.org/voxpupuli/puppet-metche.png?branch=master)](https://travis-ci.org/voxpupuli/puppet-metche)
 [![Puppet Forge](http://img.shields.io/puppetforge/v/voxpupuli/metche.svg)](https://forge.puppetlabs.com/voxpupuli/metche)
+[![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/puppet/metche.svg)](https://forge.puppetlabs.com/puppet/metche)
+[![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/puppet/metche.svg)](https://forge.puppetlabs.com/puppet/metche)
+[![Puppet Forge - scores](https://img.shields.io/puppetforge/f/puppet/metche.svg)](https://forge.puppetlabs.com/puppet/metche)
 [![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
-
-
 
 Manage [metche](https://labs.riseup.net/code/projects/metche) via Puppet
 
@@ -57,3 +58,7 @@ See [CHANGELOG](https://github.com/voxpupuli/puppet-metche/blob/master/CHANGELOG
 ## Development
 
 [Feel free to contribute](https://github.com/voxpupuli/puppet-metche/). I'm not a big fan of centralized services like GitHub but I used it to permit easy pull-requests, so show me that's a good idea!
+
+## Authors
+
+This module got migrated from sbadia to Vox Pupuli
