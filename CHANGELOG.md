@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.0.0](https://github.com/voxpupuli/puppet-metche/tree/v2.0.0) (2019-03-09)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-metche/compare/v1.1.1...v2.0.0)
+
+**Breaking changes:**
+
+- modulesync 2.6.0 & drop Puppet 4 [\#18](https://github.com/voxpupuli/puppet-metche/pull/18) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- modulesync 2.2.0 and allow puppet 6.x [\#15](https://github.com/voxpupuli/puppet-metche/pull/15) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [v1.1.1](https://github.com/voxpupuli/puppet-metche/tree/v1.1.1) (2018-09-07)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-metche/compare/v1.1.0...v1.1.1)
