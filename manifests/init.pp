@@ -64,7 +64,7 @@
 # Copyleft 2013 Sebastien Badia
 # See LICENSE file
 #
-class metche(
+class metche (
   $changelog   = '/root/Changelog',
   $owner       = 'root',
   $dopkg       = 'yes',
@@ -75,8 +75,7 @@ class metche(
   $email       = 'root@localhost',
   $send_stable = 'no',
   $excludes    = '*.swp *.git'
-  ) {
-
+) {
   package {
     'metche':
       ensure  => installed,
