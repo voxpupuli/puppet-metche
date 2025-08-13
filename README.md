@@ -1,3 +1,7 @@
+
+> [!IMPORTANT]
+> This module has been archived on 2025-08-13 (See discussion in [#36](https://github.com/voxpupuli/puppet-metche/issues/36)).
+
 # Puppet-metche
 
 [![Build Status](https://travis-ci.org/voxpupuli/puppet-metche.png?branch=master)](https://travis-ci.org/voxpupuli/puppet-metche)
